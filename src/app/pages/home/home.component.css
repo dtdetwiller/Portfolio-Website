@@ -1,7 +1,3 @@
-#tsparticles {
-  position: fixed;
-}
-
 /* My name  */
 .header {
   position: absolute;
@@ -14,6 +10,7 @@
   margin-right: -50%;
   transform: translate(-50%, -50%);
 
+  /* Background of my name so that it stands out from the particles */
   background-color: #101010;
   width: 200px;
   padding: 15px;
@@ -128,4 +125,8 @@
   top: 49%;
   right: 47px;
   margin-left: -15px;
+}
+
+.link {
+  cursor: pointer;
 }

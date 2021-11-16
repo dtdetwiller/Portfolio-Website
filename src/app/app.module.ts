@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {NgParticlesModule} from "ng-particles";
 import { AppRoutingModule } from './app-routing.module';
 
@@ -23,7 +24,8 @@ import { ResumeComponent } from './pages/resume/resume.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgParticlesModule
+    NgParticlesModule,
+     BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

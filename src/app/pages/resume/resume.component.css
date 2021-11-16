@@ -1,0 +1,22 @@
+.education-wrapper {
+  position: absolute;
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(182, 182, 182);
+  margin: auto;
+  top: 250px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  width: 900px;
+  height: 900px;
+}
+
+.title {
+  text-align: center;
+}
+
+.education-container {
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,4 @@
+/* Sticks the particles to the background */
+#tsparticles {
+  position: fixed;
+}
