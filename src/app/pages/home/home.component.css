@@ -1,0 +1,131 @@
+#tsparticles {
+  position: fixed;
+}
+
+/* My name  */
+.header {
+  position: absolute;
+  color: rgb(182, 182, 182);
+  font-family: "Courier New", Courier, monospace;
+
+  /* Position to the center */
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+
+  background-color: #101010;
+  width: 200px;
+  padding: 15px;
+  text-align: center;
+  border-radius: 10px;
+
+  /* Feather the background of my name */
+  background: radial-gradient(
+    50% 50% at center,
+    rgba(16, 16, 16, 1) 0%,
+    rgba(16, 16, 16, 1) 70%,
+    rgba(16, 16, 16, 0) 100%
+  );
+}
+
+/* Arrow styling */
+.arrow {
+  border: solid rgb(182, 182, 182);
+  border-width: 0 6px 6px 0;
+  display: inline-block;
+  padding: 3px;
+  width: 15px;
+  height: 15px;
+}
+
+/* Right arrow positioning */
+.right {
+  position: fixed;
+  left: 100vw - 20px;
+  top: 50%;
+  right: 20px;
+  margin-left: -15px;
+
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+/* Left arrow positioning */
+.left {
+  position: fixed;
+  top: 50%;
+  left: 35px;
+  margin-left: -15px;
+
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+/* Up arrow positioning */
+.up {
+  position: fixed;
+  left: 50%;
+  top: 20px;
+  margin-left: -15px;
+
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+/* Down arrow positioning */
+.down {
+  position: fixed;
+  left: 50%;
+  top: 100vh - 20px;
+  bottom: 20px;
+  margin-left: -15px;
+
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+/* About text styling and positioning */
+.text-up {
+  color: rgb(182, 182, 182);
+  font-family: "Courier New", Courier, monospace;
+
+  position: fixed;
+  left: 50%;
+  top: 40px;
+  margin-left: -25px;
+}
+
+/* Contact text styling and positioning */
+.text-down {
+  color: rgb(182, 182, 182);
+  font-family: "Courier New", Courier, monospace;
+
+  position: fixed;
+  left: 50%;
+  top: 100vh - 20px;
+  bottom: 40px;
+  margin-left: -36px;
+}
+
+/* Projects text styling and positioning */
+.text-left {
+  color: rgb(182, 182, 182);
+  font-family: "Courier New", Courier, monospace;
+
+  position: fixed;
+  top: 49%;
+  left: 50px;
+}
+
+/* Resume text styling and positioning */
+.text-right {
+  color: rgb(182, 182, 182);
+  font-family: "Courier New", Courier, monospace;
+
+  position: fixed;
+  left: 100vw - 20px;
+  top: 49%;
+  right: 47px;
+  margin-left: -15px;
+}
